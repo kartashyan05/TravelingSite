@@ -1,0 +1,50 @@
+.about{
+    /* position: absolute;
+    top: 3660px;
+    left: 50%;
+    transform: translateX(-50%); */
+    min-height: 905px;
+    padding: 65px 0 65px 0;
+
+    .label{
+        display: block;
+        margin: 0 auto 0 auto;
+        font-family: 'Trirong';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 150.02%;
+        /* identical to box height, or 54px */
+        color: #0F64B1;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    &_descr{
+        width: 709.56px;
+        margin: 0 auto;
+        margin-top: 40px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 172.52%;
+        /* or 38px */
+        
+
+        color: rgba(0, 0, 0, 0.55);
+    }
+
+    &_display{
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    &_video{
+        display: block;
+        margin: 0 auto;
+        width: 709.56px;
+        height: 424.67px;
+    }
+}

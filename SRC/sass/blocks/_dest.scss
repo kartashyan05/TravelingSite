@@ -1,0 +1,185 @@
+.dest{
+    /* position: absolute; */
+   /*  top: 880px; */
+    /*  position: absolute;
+    top: 955px; */
+    /* left:451px; */
+    width: 100%;
+    margin-top: 70px;
+    min-height: 1070px;
+    /* .sliders{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin-top: 36px;
+        width: 148px;
+        height: 20px;
+    } */
+    &_circle{
+        width: 20px;
+        height: 20px;
+        background: #93A6B8;
+        border-radius: 100%;
+        cursor:pointer;
+        &:hover{
+            background-color: #3D6081;
+        }
+        &:active{
+            background-color:#193856;
+        }
+    }
+
+    &_block{
+        margin-left: 76px;
+    }
+
+    .label{
+        display: block;
+        margin: 65px auto 0 auto;
+        font-family: 'Trirong';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 150.02%;
+        /* identical to box height, or 54px */
+        color: #0F64B1;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    &_carus{
+        width: 988px;
+        height: 619px;
+        display: block;
+        margin: 40px auto 0 auto;
+        padding: 0;
+       /*  margin-left: 223px;
+        margin-right: 223px; */
+        img{
+            width: 988px;
+            height: 619px;
+            margin-right: 0;
+            margin-left:0;
+
+        }
+    }
+
+    &_descr{
+        padding-left: 0;
+        margin-top: 78px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150.02%;
+        /* or 33px */
+        color: rgba(0, 0, 0, 0.55);
+    }
+
+.slick-dots{
+    margin: 0 auto;
+    margin-top: 36px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 148px;
+    padding-left: 0;
+    margin-bottom: 0;
+    
+    list-style-type:none;
+    li{
+        display: block;
+        height: 20px;
+        padding-top: 0;
+        line-height: 0;
+    }
+    #slick-slide-control01{
+        width: 20px;
+        height: 20px;
+        right: 624px;
+        top: 804.56px;
+        padding-left: 0;
+        background: #93A6B8;
+        font-size: 0;
+        border:none;
+        line-height: 0;;
+        border-radius: 100%;
+        &:hover{
+            background-color: #3D6081;
+        }
+        &:active{
+            background-color:#193856;
+        }
+    }
+    #slick-slide-control00{
+        width: 20px;
+        height: 20px;
+        right: 624px;
+        top: 804.56px;
+        padding-left: 0;
+        background: #93A6B8;
+        font-size: 0;
+        border:none;
+        border-radius: 100%;
+        &:hover{
+            background-color: #3D6081;
+        }
+        &:active{
+            background-color:#193856;
+        }
+    }
+    #slick-slide-control02{
+        width: 20px;
+        height: 20px;
+        right: 624px;
+        top: 804.56px;
+        padding-left: 0;
+        background: #93A6B8;
+        font-size: 0;
+        border:none;
+        border-radius: 100%;
+        &:hover{
+            background-color: #3D6081;
+        }
+        &:active{
+            background-color:#193856;
+        }
+    }
+    #slick-slide-control03{
+        width: 20px;
+        height: 20px;
+        right: 624px;
+        top: 804.56px;
+        padding-left: 0;
+        background: #93A6B8;
+        font-size: 0;
+        border:none;
+        border-radius: 100%;
+        &:hover{
+            background-color: #3D6081;
+        }
+        &:active{
+            background-color:#193856;
+        }
+    }
+    #slick-slide-control04{
+        width: 20px;
+        height: 20px;
+        right: 624px;
+        top: 804.56px;
+        padding-left: 0;
+        background: #93A6B8;
+        font-size: 0;
+        border:none;
+        border-radius: 100%;
+        &:hover{
+            background-color: #3D6081;
+        }
+        &:active{
+            background-color:#193856;
+        }
+    }
+}
+    
+
+}

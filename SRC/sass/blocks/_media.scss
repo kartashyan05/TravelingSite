@@ -1,0 +1,316 @@
+@media (max-width: 1366px){
+    .header{
+        .menu{
+            /* width: 87%; */
+        }
+    }
+    .footer{
+        /* &__map{
+            left: 140px;
+        } */
+        /* &__scribe{
+            right: 140px;
+        } */
+        &__rights{
+            left: 56px;
+        }
+        &__sign{
+            right: 56px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .header{
+        .menu{
+           margin-left: 0;
+           margin-right: 0;
+        }
+        .subheader{
+            &_icon{
+                /* margin-left: 12px; */
+            }
+        }
+        .srmenu{
+            margin-left: 307px;
+            
+        }
+    }
+    .promo{
+        &_descr{
+            width: 481px;
+            margin-right: 77px;
+            margin-left: 12px;
+        }
+        &_title{
+            width: 481px;
+            font-size: 40px;
+        }
+        &_pick{
+            width: 378px;
+            height: 378px;
+        }
+        &_divider{
+            width: 865px;
+        }
+    }
+    .dest{
+        &_row{
+            margin-top: 100px;
+        }
+        &_carus{
+            width: 864px;
+            height: 541px;
+        }
+        &_block{
+            /* height: 189px; */
+            margin-top: 0;
+            margin-left: 36px;
+        }
+        &_descr{
+            margin-top: 0;
+        }
+        .slick-dots{
+            margin-bottom: 30px;
+        }
+        .slick-slide{
+            img{
+                width: 864px;
+                height: 541px;
+            }
+        }
+    }
+    .tours{
+        &_col1{
+            width: 427px;
+            height: 507px;
+            margin-left: 50px;
+        }
+        &_pick{
+            width: 427px;
+            height: 507px;
+        }
+        &_block{
+            margin-bottom: 40px;
+            margin-left: 45px;
+            margin-right: 22px;
+            padding: 102px 0 0 0;
+            width: 392px;
+            height: 507px;
+        }
+        &_descr{
+            width: 392px;;
+        }
+        &_title{
+            
+            width: 392px;
+        }
+        &_text{
+            width: 392px;
+        }
+        &_sblock{
+            width: 392px;
+            height: 507px;
+            margin-left: 50px;
+        }
+        &_sdescr{
+            width: 392px;
+        }
+        &_stitle{
+            font-size: 22px;
+            width: 392px;
+        }
+        &_stext{
+            width: 392px;
+        }
+        &_sphoto{
+            width: 427px;
+            height: 507px;
+            padding-left: 0;
+        }
+        &_spick{
+            width: 427px;
+            height: 507px;
+        }
+
+    }
+    .lnews{
+        &__block{
+            grid-template-columns: 477px 414px;
+            column-gap:45px
+        }
+        &__photo{
+            width: 427px;
+            height: 342px;
+            img{
+                width: 427px;
+                margin-left: 50px;
+            }
+        }
+        &__descr{
+            margin-top: 40px;
+            width: 392px;
+        }
+        &__text{
+            width: 392px;
+        }
+        &__2block{
+            grid-template-columns:  464px 427px;
+            column-gap:45px;
+            img{
+                width: 427px;
+                height: 342px;
+            }
+        }
+        &__2descr{
+            margin-left: 50px;
+            margin-top: 40px;
+            width: 392px;
+        }
+        &__2text{
+            margin-top: 40px;
+            width: 392px;
+        }
+        &__2photo{
+           
+        }
+    }
+    .join{
+       &__form{
+        grid-template-columns: repeat(4, 218px) ;
+       }
+    }
+
+    .footer{
+        &__input{
+            right: 100px;
+        }
+        &__btn{
+            width: 120px;
+            font-size: 16px;
+        }
+        &__wrapper{
+            column-gap:110px;
+        }
+        &__rights{
+            left: 20px;
+        }
+        &__sign{
+            right: 20px;
+        }
+        &__box{
+            width: 960px;
+        }
+    }
+}
+
+@media (max-width: 991px){
+    /* *{
+        .row{
+            width: 960px;
+        }
+    } */
+    .header{
+        .menu{
+            padding-left: 7px;
+            padding-right: 6px;
+        }
+        &_divider{
+            margin: 0 auto;
+            width: 460px;
+        }
+        
+        .subheader{
+            &_icon{
+                padding-left: 39px;
+                width: 298px;
+                margin-left: 0;
+            }
+        }
+        .srmenu{
+            margin-left: 120px;
+           margin-right: 0;
+           padding-right: 39px;
+        }
+        .smenu{
+            margin-top: 11px;
+        }
+    }
+
+    .dest{
+        min-height: 573px;
+        padding-bottom: 35px;
+       
+
+        .slick-list{
+            style{
+                width: 330px;
+            }
+        }
+        .slick-slide{
+            img{
+                width: 500.58px;
+                height: 330px;
+                margin-right: 0;
+                margin-left:0;
+    
+            } 
+        }
+        &_carus{
+            width: 500.58px;
+            height: 330px;
+            /* img{
+                width: 500.58px;
+                height: 330px;
+                margin-right: 0;
+                margin-left:0;
+    
+            } */
+        }
+        &_block{
+            margin-top: 0;
+           /*  height: 72px; */
+            margin-left: 97px;
+        }
+        &_descr{
+           margin-top: 0;
+           width: 456.45px;
+        }
+        &_row{
+            margin-top: 84px;
+        }
+    }
+
+    .promo{
+        &_descr{
+            margin-right: 90px;
+            width: 359px;
+            margin-right: 22px;
+            /* margin-top: 8px; */
+            margin-left: 39px;
+            height: 100%;
+        }
+        &_pick{
+            width: 260px;
+            height: 260px;
+        }
+        &_title{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 130.52%;
+            /* or 31px */
+
+            letter-spacing: 0.02em;
+            width: 359px;
+            margin-top: 75px;
+
+        }
+        &_divider{
+            margin-top: 34px;
+            width: 600px;
+        }
+    }
+
+    
+}

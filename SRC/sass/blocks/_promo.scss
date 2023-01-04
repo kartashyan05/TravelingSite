@@ -1,0 +1,55 @@
+.promo{
+    width: 100%;
+    min-height: 575px;
+    /* width: 100%; */
+   /*  position: absolute; */
+    top: 225px;
+    display: block;
+    margin-top: 71px;
+
+&_descr{
+    /* margin-left: 85px; */
+    margin-right: 116px;
+    padding: 0;
+    padding-left: 0;
+    width: 585px;
+}
+
+    &_pick{
+        width: 421.47px;
+        height: 421.47px;
+        padding: 0;
+    }
+
+    &_photo{
+        width: 100%;
+    }
+
+    &_title{
+        display: block;
+        margin-top: 92px;
+        /* margin-right: 126px; */
+        /* position: absolute; */
+        font-family: 'Trirong';
+        /* font-family: 'Open Sans'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 138.52%;
+        color: #0F64B1;
+        /* left: 148.01px;
+        top: 386.75px; */
+        width: 585px;
+        
+    }
+
+    &_divider{
+        display: block;
+        width: 1000px;
+        /* height: 1px; */
+        margin: 0 auto;
+        border:1px dashed  #3D6081;
+       /*  background-color: #0F64B1; */
+        margin-top: 81px;
+    }
+}

@@ -1,0 +1,86 @@
+.reviews{
+    min-height:1118px;
+    margin-top: 100px;
+    padding: 65px 0 65px 0;
+    .label{
+        font-family: 'Trirong';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 150.02%;
+        /* identical to box height, or 54px */
+        text-align: center;
+
+
+        color: #0F64B1;
+    }
+    &__wrapper{
+        margin-top: 60px;
+    }
+    &__block{
+        display: grid;
+        grid-template-columns: 235px 575px;
+        column-gap:70px;
+        margin-bottom: 60px;
+    }
+    .reviews__title{
+        font-family: 'Trirong';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150.02%;
+        /* identical to box height, or 36px */
+
+
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    &__text{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 150.02%;
+        /* or 33px */
+
+
+        color: rgba(0, 0, 0, 0.4);
+    }
+
+    &__subtitle{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150.02%;
+        /* identical to box height, or 30px */
+
+
+        color: #EE8524;
+        margin-left: 313px;
+        @include sub_hover;
+        &:after{
+            content: '';
+            display: block;
+            height: 2px;
+            width: 0%;
+            margin-left:-2px;
+            background-color:#bd5b00;
+            transition: 0.8s all;
+        }
+        &:hover{
+            &:after{
+               content: '';
+                display: block;
+                margin: 0 auto;
+                margin-left: -2px;
+                width: 12%;
+            }
+        }
+    }
+
+    &__descr{
+        margin-top: 20px;
+    }
+
+}

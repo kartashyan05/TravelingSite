@@ -1,0 +1,24 @@
+@mixin menu_hover{
+    &:hover{
+        color:$third-color;
+    }
+}
+
+@mixin descr_hover{
+    &:hover{
+        color:#587998;
+    }
+}
+
+@mixin sub-hover{
+    &:hover{
+        color:#bd5b00;
+    }
+}
+@mixin icon-hover{
+    &:hover{
+        
+        color:$second-color;
+       
+    }
+}
