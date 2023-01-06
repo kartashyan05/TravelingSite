@@ -271,6 +271,7 @@
             margin-top: 0;
            /*  height: 72px; */
             margin-left: 97px;
+            width: 457px;
         }
         &_descr{
            margin-top: 0;
@@ -310,6 +311,153 @@
             margin-top: 34px;
             width: 600px;
         }
+    }
+
+    .tours{
+        min-height: 701px;
+        margin-top: 60px;
+        padding-bottom: 35px;
+        .label{
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 150.02%;
+            /* identical to box height, or 36px */
+
+            text-align: center;
+        }
+        &_col1{
+            width: 244.64px;
+            height: 251.12px;
+            margin-left: 93px;
+            margin-bottom: 25px;
+            /* padding-left: 53px; */
+        }
+        &_pick{
+            width: 244.64px;
+            height: 251.12px;
+            margin-left: 0;
+        }
+        &_block{
+            margin-left: 36px;
+            margin-right: 0;
+            padding-top: 2px;
+            width: 305px;
+            height: 100%;
+            padding-left: 13px;
+            margin-bottom: 25px;
+        }
+        &_title{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150.02%;
+            /* or 27px */
+
+
+            color: rgba(0, 0, 0, 0.7);
+        }
+        &_text{
+            margin-top: 18px;
+            width: 100%;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150.02%;
+            /* or 24px */
+
+
+            color: rgba(0, 0, 0, 0.4);
+        }
+        &_descr{
+            width: 305px;
+        }
+        &_subtitle{
+            margin-top: 7px;
+            margin-bottom: 0;
+        }
+        &_sblock{
+           
+            padding-top: 24px;
+            width: 305px;
+            height: 100%;
+            padding-left: 0;
+            margin-bottom: 25px;
+            margin-left: 93px;
+        }
+        &_stext{
+            margin-top: 18px;
+            width: 100%;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150.02%;
+            /* or 24px */
+
+
+            color: rgba(0, 0, 0, 0.4);
+        }
+        &_stitle{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150.02%;
+            /* or 27px */
+
+
+            color: rgba(0, 0, 0, 0.7);
+        }
+        &_sdescr{
+            width: 305px;
+        }
+        &_ssubtitle{
+            margin-top: 7px;
+            margin-bottom: 0;
+        }
+        &_sphoto{
+            width: 240.9px;
+            height: 251px;
+            /* margin-right: 93px; */
+            padding: 0;
+        }
+        &_spick{
+            width: 240.9px;
+            height: 251px;
+            margin-right: 0;
+        }
+        &_esubtitle{
+            margin-top: 30px;
+        }
+        
+    }
+
+    .about{
+        margin-top: 60px;
+        min-height: 641px;
+        padding: 35px 0 35px 0;
+        .label{
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 150.02%;
+            /* identical to box height, or 36px */
+
+            text-align: center;
+        }
+        &_descr{
+            width: 560px;
+            margin-top: 30px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 172.52%;
+            /* or 28px */
+
+            letter-spacing: 0.01em;
+
+            color: rgba(0, 0, 0, 0.55);
+        }
+        &_video{
+            width: 502px;
+            height: 279.06px;
+        }
+
     }
 
     
